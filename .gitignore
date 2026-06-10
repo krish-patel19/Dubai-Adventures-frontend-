@@ -1,7 +1,19 @@
-.next/
+# dependencies
 node_modules/
-*.env.local
-.env
+
+# next.js development and production build outputs
+.next/
+.next-dev/
 dist/
 build/
+
+# environment variables (private data)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# misc
 .DS_Store
